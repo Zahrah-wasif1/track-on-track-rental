@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    
+</head>
+<style>
+body {
+  background: url(pictures/9e79ea16-f47c-4f0d-b69b-46441bc7866e.jpg);
+        font-family:'Times New Roman', Times, serif;
+        background-repeat:no-repeat;
+        background-size: cover;
+        margin:0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #333;
+        height: 100vh;
+}
+img::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:rgba(0,0,0,0.4);
+}
+    a{
+        margin-top: 10px;
+    }
+    
+</style>
+<link rel="stylesheet" href="style.css">
+<body class="img">
+<div class="login-form">
+    <h2 style="align-content:center;font: size 32px;">Login</h2>
+        <form  type="submit" action="index.html" method="post">
+            <label for="em">Email</label>
+            <input type="email" id="em" name="userlogin" placeholder="Enter your Email" required>
+            <label for="ps">Password</label>
+            <input type="password" name="userlogin"placeholder="Enter password" id="ps" required>
+            
+            <label  class="remember-me" for="rm" id="rm">
+                <input type="checkbox"id="rm" required>Remember me</label>
+            <input class="submit" type="submit"  value="Login" >
+            <br><br>
+            <a href="fm.html">Forget Password?</a><p style="color: #000;">Don't have account &nbsp;<a href="signup.html">Register</a></p>
+
+        </form>
+        
+    </div>
+
+</body>
+</html>

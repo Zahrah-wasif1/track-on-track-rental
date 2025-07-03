@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+  <style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  }
+        .half-hero {
+  height: 40vh;
+  background: url('pictures/pic.jpg') no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.half-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #ccc;
+}
+.latest-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+</style>
+<link rel="stylesheet" href="style.css">
+<body>
+     <header class="nav-bar">
+        <div class="logo">
+            <strong>Track <span>OnTrack </span>Rental</strong>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listing.html">Listing</a></li>
+                <li><a href="services.html">Service</a></li>
+                <li><a href="testimo.html">Testimonials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--hero section-->
+    <div class="half-hero">
+        <div class="hero-content">
+            <h1><strong style="color:#48e909; width: 100px;">Reliable and affordable </strong>&nbsp;vehicles for a smooth and stress-free journey</h1>
+            <br>
+        </div>
+        </div>
+<div class="contact">
+     <div class="container">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you. Whether you have a question, feedback, or want to book a vehicle, get in touch with us!</p>
+
+    <div class="contact-wrapper">
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Full Name" required>
+        <input type="email" name="email" placeholder="Your Email Address" required>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h4>Our Office</h4>
+        <p><strong>Address:</strong> Main Boulevard, Lahore, Pakistan</p>
+        <p><strong>Phone:</strong> +92 300 1234567</p>
+        <p><strong>Email:</strong> info@trackontrack.com</p>
+        <p><strong>Hours:</strong> Mon - Sat: 9AM to 9PM</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cta">
+      <div class="container">
+    <h2>What Are You Waiting For?</h2>
+    <p>Ready to ride with comfort and style? Book your vehicle now and experience convenience at its best.</p>
+    <a href="booking.html" class="cta-button">Book Now</a>
+</div>
+  </div>
+<!--Footer-->
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <strong>Track <span>OnTrack </span>Rental</strong>
+      <p>Reliable and flexible vehicle rental services. Serving you for city rides, events, and more!</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="listing.html">Car Listings</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Contact Us</h4>
+      <p><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</p>
+      <p><i class="fas fa-phone"></i> +92 300 1234567</p>
+      <p><i class="fas fa-envelope"></i> support@trackontrack.com</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    &copy; 2025 Track OnTrack Rental. All rights reserved.
+  </div>
+</footer>
+            </body>
+
+</html>

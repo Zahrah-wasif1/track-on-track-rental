@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<body>
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  }
+        .half-hero {
+  height: 40vh; /* Half or less than full screen */
+  background: url('pictures/pic.jpg') no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.half-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #ccc;
+}
+.latest-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.history-section {
+  padding: 80px 20px;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.history-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  gap: 40px;
+}
+
+.history-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.history-text h2 {
+  font-size: 36px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.history-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.history-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.history-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+</style>
+<link rel="stylesheet" href="style.css">
+<body>
+     <header class="nav-bar">
+        <div class="logo">
+            <strong>Track <span>OnTrack </span>Rental</strong>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listing.html">Listing</a></li>
+                <li><a href="services.html">Service</a></li>
+                <li><a href="testimo.html">Testimonials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--hero section-->
+    <div class="half-hero">
+        <div class="hero-content">
+            <h1><strong style="color:#48e909; width: 100px;">Reliable and affordable </strong>&nbsp;vehicles for a smooth and stress-free journey</h1>
+            <br>
+        </div>
+        </div>
+        <div class="about-section">
+            <div class="about-container">
+      <div class="about-text">
+        <h1>About Us</h1>
+        <p>
+          Welcome to Track OnTrack Rental! We provide affordable, reliable, and stylish vehicle rental solutions.
+          Our mission is to offer a smooth and seamless rental experience for every customer—whether you're heading to
+          a wedding, catching a flight, or exploring the city.
+        </p>
+        <p>
+          With years of experience and a wide fleet of vehicles, we ensure comfort, safety, and convenience. 
+          Book with us and enjoy flexible rental plans, 24/7 customer support, and unbeatable service quality.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="pictures/pexels-shkrabaanthony-7144174.jpg" alt="Our Team or Vehicles">
+      </div>
+    </div>
+    </div>
+    <!--History-->
+    <div class="history">
+          <div class="container">
+    <div class="history-content">
+      <div class="history-text">
+        <h2>Our History</h2>
+        <p>
+          Track OnTrack Rental was founded with a vision to simplify vehicle rentals across the city. What began as a small service with just a few cars is now one of the fastest-growing rental platforms in Pakistan.
+        </p>
+        <p>
+          We’ve helped thousands of customers find the right ride — whether it's for a wedding, an airport transfer, or a city tour. Our mission is built on reliability, transparency, and customer-first service.
+        </p>
+      </div>
+      <div class="history-image">
+        <img src="pictures/pexels-blitzboy-1073031.jpg" alt="Our History">
+      </div>
+    </div>
+  </div>
+    </div>
+<!--Team-->
+<div class="team">
+     <h2>Meet Our Team</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="pictures/male.jpg" alt="Founder Image">
+        <h4>James Doe</h4>
+        <p>Founder</p>
+        <p>Innovative and driven, James leads our team with vision and purpose.</p>
+      </div>
+      <div class="team-member">
+        <img src="pictures/female.jpg" alt="Founder Image">
+        <h4>Sarah Lee</h4>
+        <p>Co-Founder</p>
+        <p>Sarah handles operations and ensures seamless service delivery.</p>
+      </div>
+      <div class="team-member">
+        <img src="pictures/male.jpg" alt="Team Member">
+        <h4>Ali Khan</h4>
+        <p>Fleet Manager</p>
+        <p>Ali makes sure every vehicle meets our safety and quality standards.</p>
+      </div>
+      <div class="team-member">
+        <img src="pictures/male.jpg" alt="Founder Image">
+        <h4>James Doe</h4>
+        <p>Founder</p>
+        <p>Innovative and driven, James leads our team with vision and purpose.</p>
+      </div>
+      <div class="team-member">
+        <img src="pictures/male.jpg" alt="Founder Image">
+        <h4>James Doe</h4>
+        <p>Founder</p>
+        <p>Innovative and driven, James leads our team with vision and purpose.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--History-->
+<div class="cta">
+      <div class="container">
+    <h2>What Are You Waiting For?</h2>
+    <p>Ready to ride with comfort and style? Book your vehicle now and experience convenience at its best.</p>
+    <a href="booking.html" class="cta-button">Book Now</a>
+  </div>
+
+</div>
+<!--Footer-->
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <strong>Track <span>OnTrack </span>Rental</strong>
+      <p>Reliable and flexible vehicle rental services. Serving you for city rides, events, and more!</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="listing.html">Car Listings</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Contact Us</h4>
+      <p><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</p>
+      <p><i class="fas fa-phone"></i> +92 300 1234567</p>
+      <p><i class="fas fa-envelope"></i> support@trackontrack.com</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    &copy; 2025 Track OnTrack Rental. All rights reserved.
+  </div>
+</footer>
+</body>
+</html>
+        

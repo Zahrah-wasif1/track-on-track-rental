@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listing</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  }
+
+  .half-hero {
+  height: 40vh; /* Half or less than full screen */
+  background: url('pictures/70b3b677-fe1c-4895-8e49-14cfea879074.jpg') no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.half-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+</style>
+<link rel="stylesheet" href="style.css">
+<body>
+     <header class="nav-bar">
+        <div class="logo">
+            <strong>Track <span>OnTrack </span>Rental</strong>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listing.html">Listing</a></li>
+                <li><a href="services.html">Service</a></li>
+                <li><a href="testimo.html">Testimonials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--hero section-->
+    <div class="half-hero">
+        <div class="hero-content">
+            <h1><strong>Rental a car</strong>&nbsp;is within your finger tips</h1>
+            <br>
+        </div>
+        </div>
+            <!--Listing-->
+             <div class="Car-display">
+        <h2>Car Listings</h2>
+    <p>Browse reliable, ready-to-ride cars for every journey.</p>
+    <div class="card-container">
+      <!-- Car Card -->
+      <div class="card">
+        <img src="pictures/MITSUBISHI PAJERO.jpg" alt="Mitsubishi Pajero" />
+        <h3>Mitsubishi Pajero</h3>
+        <p class="price">Rs 9000 <span>/ day</span></p>
+        <ul>
+          <li>Luggage: 8</li>
+          <li>Doors: 4</li>
+          <li>Passenger: 4</li>
+        </ul>
+        <p>Mitsubishi Pajero offers a perfect blend of power, comfort, and durability—ideal for both city drives and off-road adventures.</p>
+        <button>Rent Now</button>
+      </div>
+
+      <div class="card">
+        <img src="pictures/NISSAN MOCO.jpg" alt="Nissan Moco" />
+        <h3>Nissan Moco</h3>
+        <p class="price">Rs: 8000  <span>/ day</span></p>
+        <ul>
+          <li>Luggage: 8</li>
+          <li>Doors: 4</li>
+          <li>Passenger: 4</li>
+        </ul>
+        <p>The Nissan Moco is a compact, fuel-efficient car designed for smooth city driving. Its smart design and easy handling make it perfect for daily commutes and urban travel.</p>
+        <button>Rent Now</button>
+    </div>
+    <div class="card">
+        <img src="pictures/HONDA VEZEL.jpg" alt="Nissan Moco" />
+        <h3>Honda Vezel</h3>
+        <p class="price">Rs 7000 <span>/ day</span></p>
+        <ul>
+          <li>Luggage: 8</li>
+          <li>Doors: 4</li>
+          <li>Passenger: 4</li>
+        </ul>
+<p>The Honda Vezel is a stylish and fuel-efficient SUV that combines comfort, performance, and advanced features</p>        <button>Rent Now</button>    
+  </div>
+  <div class="card">
+        <img src="pictures/AUDI.jpg" alt="Nissan Moco" />
+        <h3>Audi A5</h3>
+        <p class="price">Rs 9000 <span>/ day</span></p>
+        <ul>
+          <li>Luggage: 8</li>
+          <li>Doors: 4</li>
+          <li>Passenger: 4</li>
+        </ul>
+<p>The Audi A5 is a premium coupe that blends sleek design with powerful performance, offering a smooth, luxurious drive for those who value style and sophistication.</p>
+        <button>Rent Now</button>    
+  </div>
+
+   <div class="card">
+        <img src="pictures/Mg.jpg" alt="Nissan Moco" />
+        <h3>MG</h3>
+        <p class="price">Rs 9000 <span>/ day</span></p>
+        <ul>
+          <li>Luggage: 4</li>
+          <li>Doors: 4</li>
+          <li>Passenger: 4</li>
+        </ul>
+<p>The MG is a modern SUV known for its sleek design, comfort, and smart features. It offers smooth performance, spacious seating, and advanced technology—perfect for both families and daily commuters.</p>
+        <button>Rent Now</button>    
+  </div>
+
+   <div class="card">
+        <img src="pictures/HONDA 125.jpg" alt="Nissan Moco" />
+        <h3>Honda 125</h3>
+        <p class="price">Rs 4000 <span>/ day</span></p>
+        <ul>
+          <li>Luggage: 2</li>
+          <li>Doors: 0</li>
+          <li>Passenger: 3</li>
+        </ul>
+<p>The Honda 125 is a reliable and fuel-efficient motorcycle, perfect for daily commuting and short-distance travel. Its strong engine, smooth ride, and low maintenance make it a popular choice across all age groups.</p>
+        <button>Rent Now</button>    
+  </div>
+    </div>
+
+    <div class="pagination">
+  <a href="listing.html">1</a>
+  <a href="listing 2.html" class="active">2</a>
+  <a href="listing 3.html">3</a>
+</div>
+
+<div class="cta">
+      <div class="container">
+    <h2>What Are You Waiting For?</h2>
+    <p>Ready to ride with comfort and style? Book your vehicle now and experience convenience at its best.</p>
+    <a href="booking.html" class="cta-button">Book Now</a>
+  </div>
+  <!--Footer-->
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <strong>Track <span>OnTrack </span>Rental</strong>
+      <p>Reliable and flexible vehicle rental services. Serving you for city rides, events, and more!</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="listing.html">Car Listings</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Contact Us</h4>
+      <p><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</p>
+      <p><i class="fas fa-phone"></i> +92 300 1234567</p>
+      <p><i class="fas fa-envelope"></i> support@trackontrack.com</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    &copy; 2025 Track OnTrack Rental. All rights reserved.
+  </div>
+</footer>
+</body>
+</html>
