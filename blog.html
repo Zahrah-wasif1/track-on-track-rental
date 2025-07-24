@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
-<body>
     <style>
   * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
   }
@@ -53,11 +52,15 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.button:hover{
+  background-color: #48e909;
+  color: #fff;
+}
 
 </style>
 <link rel="stylesheet" href="style.css">
 <body>
-     <header class="nav-bar">
+     <header class="nav-bar" style="padding:10px;">
         <div class="logo">
             <strong>Track <span>OnTrack </span>Rental</strong>
         </div>
@@ -67,9 +70,10 @@
                 <li><a href="listing.html">Listing</a></li>
                 <li><a href="services.html">Service</a></li>
                 <li><a href="testimo.html">Testimonials</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a style="color:#48e909;" href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html"  class="button">Log In</a></li>
             </ul>
         </nav>
     </header>
@@ -81,16 +85,16 @@
         </div>
         </div>
     <!--Blogs-->
-  <div class="blogs-section">
-     <h2 class="latest-title">Latest Blog Posts</h2>
-    <div class="blog-container">
+  <div style="padding: 50 0px;" class="blogs-section">
+     <h1 style="text-align: center; padding: 50px 0px;">Latest Blog Posts</h1>
+    <div style="padding: 20px 0px;" class="blog-container">
 
       <div class="blog-card">
         <img src="pictures/pexels-blitzboy-1073031.jpg" alt="Blog 1">
         <div class="blog-content">
           <h3>Top 5 Rental Cars for City Travel</h3>
           <p>Discover the best affordable cars for smooth and budget-friendly urban travel.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="read_now.html" class="read-more">Read More</a>
         </div>
       </div>
 
@@ -99,7 +103,7 @@
         <div class="blog-content">
           <h3>Tips to Maintain Rental Cars</h3>
           <p>Learn the essential maintenance tips for keeping your rental car in top condition.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="read_now2.html" class="read-more">Read More</a>
         </div>
       </div>
 
@@ -108,7 +112,7 @@
         <div class="blog-content">
           <h3>Why Choose Online Booking?</h3>
           <p>Online rental booking saves time and offers better flexibility for your trips.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="read_now3.html" class="read-more">Read More</a>
         </div>
       </div>
  <div class="blog-card">
@@ -134,7 +138,7 @@
         <div class="blog-content">
           <h3>Why Choose Online Booking?</h3>
           <p>Online rental booking saves time and offers better flexibility for your trips.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="read_now3.html" class="read-more">Read More</a>
         </div>
       </div>
        <div class="blog-card">
@@ -142,7 +146,7 @@
         <div class="blog-content">
           <h3>Top 5 Rental Cars for City Travel</h3>
           <p>Discover the best affordable cars for smooth and budget-friendly urban travel.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="read_now.html" class="read-more">Read More</a>
         </div>
       </div>
 
@@ -151,7 +155,7 @@
         <div class="blog-content">
           <h3>Tips to Maintain Rental Cars</h3>
           <p>Learn the essential maintenance tips for keeping your rental car in top condition.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="read_now2.html" class="read-more">Read More</a>
         </div>
       </div>
 
@@ -160,7 +164,7 @@
         <div class="blog-content">
           <h3>Top 5 Rental Cars for City Travel</h3>
           <p>Discover the best affordable cars for smooth and budget-friendly urban travel.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="read_now.html" class="read-more">Read More</a>
         </div>
       </div>
 
@@ -169,7 +173,7 @@
         <div class="blog-content">
           <h3>Tips to Maintain Rental Cars</h3>
           <p>Learn the essential maintenance tips for keeping your rental car in top condition.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="read_now2.html" class="read-more">Read More</a>
         </div>
       </div>
 
@@ -178,9 +182,19 @@
         <div class="blog-content">
           <h3>Why Choose Online Booking?</h3>
           <p>Online rental booking saves time and offers better flexibility for your trips.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="read_now3.html" class="read-more">Read More</a>
         </div>
       </div>
+      
+      <div class="blog-card">
+        <img src="pictures/pexels-mikebirdy-133826.jpg" alt="Blog 3">
+        <div class="blog-content">
+          <h3>Why Choose Online Booking?</h3>
+          <p>Online rental booking saves time and offers better flexibility for your trips.</p>
+          <a href="read_now3.html" class="read-more">Read More</a>
+        </div>
+      </div>
+  </div>
   </div>
 
   <div class="cta">
@@ -189,6 +203,7 @@
     <p>Ready to ride with comfort and style? Book your vehicle now and experience convenience at its best.</p>
     <a href="booking.html" class="cta-button">Book Now</a>
   </div>
+</div>
   <!--Footer-->
   <footer class="site-footer">
   <div class="footer-container">

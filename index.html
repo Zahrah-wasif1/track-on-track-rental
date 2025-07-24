@@ -5,19 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Track Ontrack Rental</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <style>
     * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
-}
-html, body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
 }
 
 
@@ -25,21 +19,33 @@ body {
   color: #333;
   overflow-x: hidden;
 }
+.pad{
+  padding-top: 70px;
+}
+.button{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 </style>
 <body>
-    <header class="nav-bar">
+    <header class="nav-bar" style="padding:10px;">
         <div class="logo">
             <strong>Track <span>OnTrack </span>Rental</strong>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a style="color:#48e909;" href="index.html">Home</a></li>
                 <li><a href="listing.html">Listing</a></li>
                 <li><a href="services.html">Service</a></li>
                 <li><a href="testimo.html">Testimonials</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="button">Log In</a>
             </ul>
         </nav>
     </header>
@@ -49,23 +55,26 @@ body {
             <h1><strong>Rental a car</strong>&nbsp;is within your finger tips</h1>
             <br>
             <form class="form">
-                <select>
-                    <option value="select type">Select</option>
-                    <option value="car">Car</option>
-                    <option value="van">Van</option>
-                    <option value="SUV">SUV</option>
-                </select>
-                <input type="date" placeholder=Pick-up>
-                <input type="date" placeholder=Drop-off>
-                <input type="submit" value="Search">
-            </form>
+    <select required>
+      <option value="">Select Type</option>
+      <option value="car">Car</option>
+      <option value="van">Van</option>
+      <option value="SUV">SUV</option>
+    </select>
+
+    <input type="date" name="pickup" required>
+    <input type="date" name="dropoff" required>
+    <input type="submit" value="Search">
+  </form>
+
+
         </div>
     </div>
     <!--intrustion section-->
     <div class="hiw">
         <div class="hiw-container" style="font-size: 32px;
     color: #000;">
-            <h2>How It Work</h2>
+            <h2 class="pad">How It Work</h2>
             <p>Easy steps to get started?</p>
         </div>
         <div class="steps" style="padding: top 30px;">
@@ -84,15 +93,16 @@ body {
         <div class="content">
             <span class="no">03</span>
             <h3>Payment</h3>
-<p>Complete your payment securely in just a few clicks!  </p>      </div>
-
+<p>Complete your payment securely in just a few clicks!  </p>   
+   </div>
     </div>
     <!--promo box-->
     <div class="promo">
         <div class="promo-text">
     <h2>You can easily avail our promo for renting a car.</h2>
     <p>Fast, flexible, and affordable rentals at your fingertips. From quick city rides to weekend getaways, our easy-to-use platform and reliable vehicles make your journey smooth and hassle-free.</p>
-    <input class="button" type="button" value="Click Here">
+            <a style="text-decoration: none;" class="button" href="about.html">Click Here</a> 
+
   </div>
   <div class="promo-image">
     <img src="pictures/pexels-blitzboy-1073031.jpg" alt="Promo Image">
@@ -114,7 +124,7 @@ body {
           <li>Passenger: 4</li>
         </ul>
         <p>Mitsubishi Pajero offers a perfect blend of power, comfort, and durability—ideal for both city drives and off-road adventures.</p>
-        <button>Rent Now</button>
+        <a class="button" href="listing.html">Rent Now</a> 
       </div>
 
       <div class="card">
@@ -127,7 +137,7 @@ body {
           <li>Passenger: 4</li>
         </ul>
         <p>The Nissan Moco is a compact, fuel-efficient car designed for smooth city driving. Its smart design and easy handling make it perfect for daily commutes and urban travel.</p>
-        <button>Rent Now</button>
+        <a class="button" href="listing.html">Rent Now</a> 
     </div>
     <div class="card">
         <img src="pictures/HONDA VEZEL.jpg" alt="Nissan Moco" />
@@ -138,7 +148,9 @@ body {
           <li>Doors: 4</li>
           <li>Passenger: 4</li>
         </ul>
-<p>The Honda Vezel is a stylish and fuel-efficient SUV that combines comfort, performance, and advanced features</p>        <button>Rent Now</button>    
+<p>The Honda Vezel is a stylish and fuel-efficient SUV that combines comfort, performance, and advanced features</p>       
+         <a class="button" href="listing.html">Rent Now</a> 
+   
   </div>
   <div class="card">
         <img src="pictures/AUDI.jpg" alt="Nissan Moco" />
@@ -150,8 +162,9 @@ body {
           <li>Passenger: 4</li>
         </ul>
 <p>The Audi A5 is a premium coupe that blends sleek design with powerful performance, offering a smooth, luxurious drive for those who value style and sophistication.</p>
-        <button>Rent Now</button>    
-  </div>
+        <a class="button" href="listing.html">Rent Now</a> 
+
+</div>
 
    <div class="card">
         <img src="pictures/Mg.jpg" alt="Nissan Moco" />
@@ -163,7 +176,7 @@ body {
           <li>Passenger: 4</li>
         </ul>
 <p>The MG is a modern SUV known for its sleek design, comfort, and smart features. It offers smooth performance, spacious seating, and advanced technology—perfect for both families and daily commuters.</p>
-        <button>Rent Now</button>    
+                <a class="button" href="listing.html">Rent Now</a>   
   </div>
 
    <div class="card">
@@ -176,7 +189,8 @@ body {
           <li>Passenger: 3</li>
         </ul>
 <p>The Honda 125 is a reliable and fuel-efficient motorcycle, perfect for daily commuting and short-distance travel. Its strong engine, smooth ride, and low maintenance make it a popular choice across all age groups.</p>
-        <button>Rent Now</button>    
+               <a class="button" href="listing.html">Rent Now</a> 
+    
   </div>
     </div>
     <!--Features-->
@@ -206,8 +220,8 @@ body {
     </div>
     <!--testominals-->
     <div class="testimonal">
-         <h2>What Our Customers Say</h2>
-  <div class="testimonial-container">
+         <h1 class="heading" style="padding: 50px 0px; font: size 50px;">What Our Customers Say</h1>
+  <div style="padding:40px 0px;" class="testimonial-container">
     <div class="testimonial-card">
       <img src="pictures/female.jpg" alt="Customer 1" class="testimonial-img">
       <p>"The booking process was smooth and the car was in perfect condition. Highly recommended!"</p>
@@ -240,7 +254,8 @@ body {
 </div>
 
     <!--Footer-->
-    <footer class="site-footer">
+<!--Footer-->
+<footer class="site-footer">
   <div class="footer-container">
     <div class="footer-column">
       <strong>Track <span>OnTrack </span>Rental</strong>

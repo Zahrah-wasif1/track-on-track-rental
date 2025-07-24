@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <style>
     * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
   }
@@ -45,23 +45,28 @@
   font-size: 16px;
   color: #ccc;
 }
+.button:hover{
+  background-color: #48e909;
+  color: #fff;
+}
 
 </style>
 <link rel="stylesheet" href="style.css">
 <body>
-     <header class="nav-bar">
+     <header class="nav-bar" style="padding: 10px">
         <div class="logo">
             <strong>Track <span>OnTrack </span>Rental</strong>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="listing.html">Listing</a></li>
+                <li><a style="color:#48e909;" href="listing.html">Listing</a></li>
                 <li><a href="services.html">Service</a></li>
                 <li><a href="testimo.html">Testimonials</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a  href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html"  class="button">Log In</a></li>
             </ul>
         </nav>
     </header>
@@ -73,11 +78,12 @@
         </div>
         </div>
             <!--Listing-->
-             <div class="Car-display">
+             <div class="Car-display" style="padding: 40px 0px;">
         <h2>Car Listings</h2>
     <p>Browse reliable, ready-to-ride cars for every journey.</p>
     <div class="card-container">
       <!-- Car Card -->
+       
       <div class="card">
         <img src="pictures/MITSUBISHI PAJERO.jpg" alt="Mitsubishi Pajero" />
         <h3>Mitsubishi Pajero</h3>
@@ -88,7 +94,7 @@
           <li>Passenger: 4</li>
         </ul>
         <p>Mitsubishi Pajero offers a perfect blend of power, comfort, and durability—ideal for both city drives and off-road adventures.</p>
-        <button>Rent Now</button>
+        <a class="button" href="detail.html">Rent Now</a>    
       </div>
 
       <div class="card">
@@ -101,7 +107,7 @@
           <li>Passenger: 4</li>
         </ul>
         <p>The Nissan Moco is a compact, fuel-efficient car designed for smooth city driving. Its smart design and easy handling make it perfect for daily commutes and urban travel.</p>
-        <button>Rent Now</button>
+        <a class="button" href="detail2.html">Rent Now</a>    
     </div>
     <div class="card">
         <img src="pictures/HONDA VEZEL.jpg" alt="Nissan Moco" />
@@ -112,7 +118,8 @@
           <li>Doors: 4</li>
           <li>Passenger: 4</li>
         </ul>
-<p>The Honda Vezel is a stylish and fuel-efficient SUV that combines comfort, performance, and advanced features</p>        <button>Rent Now</button>    
+<p>The Honda Vezel is a stylish and fuel-efficient SUV that combines comfort, performance, and advanced features</p>     
+        <a class="button" href="detail3.html">Rent Now</a>    
   </div>
   <div class="card">
         <img src="pictures/AUDI.jpg" alt="Nissan Moco" />
@@ -124,7 +131,7 @@
           <li>Passenger: 4</li>
         </ul>
 <p>The Audi A5 is a premium coupe that blends sleek design with powerful performance, offering a smooth, luxurious drive for those who value style and sophistication.</p>
-        <button>Rent Now</button>    
+        <a class="button" href="detail4.html">Rent Now</a>    
   </div>
 
    <div class="card">
@@ -137,7 +144,7 @@
           <li>Passenger: 4</li>
         </ul>
 <p>The MG is a modern SUV known for its sleek design, comfort, and smart features. It offers smooth performance, spacious seating, and advanced technology—perfect for both families and daily commuters.</p>
-        <button>Rent Now</button>    
+        <a class="button" href="detail5.html">Rent Now</a>    
   </div>
 
    <div class="card">
@@ -150,9 +157,10 @@
           <li>Passenger: 3</li>
         </ul>
 <p>The Honda 125 is a reliable and fuel-efficient motorcycle, perfect for daily commuting and short-distance travel. Its strong engine, smooth ride, and low maintenance make it a popular choice across all age groups.</p>
-        <button>Rent Now</button>    
+        <a class="button" href="detail6.html">Rent Now</a>    
   </div>
     </div>
+
 
     <div class="pagination">
   <a href="listing.html" class="active">1</a>
@@ -167,8 +175,9 @@
     <a href="booking.html" class="cta-button">Book Now</a>
   </div>
 </div>
-  <!--Footer-->
-  <footer class="site-footer">
+
+<!--Footer-->
+<footer class="site-footer">
   <div class="footer-container">
     <div class="footer-column">
       <strong>Track <span>OnTrack </span>Rental</strong>
@@ -177,7 +186,7 @@
 
     <div class="footer-column">
       <h4>Quick Links</h4>
-      <ul style="list-style: none;">
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="services.html">Services</a></li>

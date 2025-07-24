@@ -1,20 +1,17 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Blog</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+<body>
 <style>
   * {
-
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
   }
-
-    .half-hero {
+        .half-hero {
   height: 40vh; /* Half or less than full screen */
   background: url('pictures/pexels-stockphotoartist-8305278.jpg') no-repeat center center/cover;
   position: relative;
@@ -47,6 +44,13 @@
   font-size: 16px;
   color: #ccc;
 }
+.latest-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .button:hover{
   background-color: #48e909;
   color: #fff;
@@ -55,7 +59,7 @@
 </style>
 <link rel="stylesheet" href="style.css">
 <body>
-     <header class="nav-bar" style="padding: 10px;">
+     <header class="nav-bar">
         <div class="logo">
             <strong>Track <span>OnTrack </span>Rental</strong>
         </div>
@@ -63,61 +67,40 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="listing.html">Listing</a></li>
-                <li><a style="color:#48e909;" href="services.html">Service</a></li>
+                <li><a href="services.html">Service</a></li>
                 <li><a href="testimo.html">Testimonials</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a style="color:#48e909;" href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html" class="button">Log In</a></li>
+                <li><a href="login.html"  class="button">Log In</a></li>
             </ul>
         </nav>
     </header>
     <!--hero section-->
     <div class="half-hero">
         <div class="hero-content">
-            <h1><strong style="color: #48e909;">Rental a car</strong>&nbsp;is within your finger tips</h1>
+            <h1><strong style="color:#48e909; width: 100px;">Read what people are saying</strong>&nbsp;real stories, real rental experiences.</h1>
             <br>
         </div>
         </div>
 
-        <div class="service-section">
-            <h1 style="text-align: center; padding: 50px 0px;">Our Latest Services</h1>
-  <div style="padding:40px 0px"class="services-grid">
-    <div class="service-card">
-      <i class="fas fa-church icon"></i>
-      <h3>Wedding Ceremony</h3>
-      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    </div>
-
-    <div class="service-card">
-      <i class="fas fa-city icon"></i>
-      <h3>City Transfer</h3>
-      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    </div>
-
-    <div class="service-card">
-      <i class="fas fa-plane-departure icon"></i>
-      <h3>Airport Transfer</h3>
-      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    </div>
-
-    <div class="service-card">
-      <i class="fas fa-map-marked-alt icon"></i>
-      <h3>Whole City Tour</h3>
-      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    </div>
+  <div class="blog-post">
+    <h2>Why Choose Online Booking?</h2>
+    <img src="pictures/pic.jpg" alt="">
+    <p>Meet the people who found comfort, convenience, and reliability through TrackOnTrack Rental. From road trips to daily commutes, our cars have been a part of many unforgettable journeys.</p>
+    <p>"I rented a vehicle for my honeymoon road trip and the experience was smooth and stress-free!" — <strong>Ahmed</strong></p>
+    <p>"Thanks to the flexible options, I could manage work transportation efficiently." — <strong>Nadia</strong></p>
   </div>
 
-    <div  class="cta">
+  <div class="cta">
       <div class="container">
     <h2>What Are You Waiting For?</h2>
     <p>Ready to ride with comfort and style? Book your vehicle now and experience convenience at its best.</p>
     <a href="booking.html" class="cta-button">Book Now</a>
   </div>
-    </div>
-    
+</div>
   <!--Footer-->
-<footer class="site-footer">
+  <footer class="site-footer">
   <div class="footer-container">
     <div class="footer-column">
       <strong>Track <span>OnTrack </span>Rental</strong>
